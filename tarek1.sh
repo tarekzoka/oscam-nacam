@@ -8,6 +8,10 @@ NitroAdvanceFHD/main/tarek1.sh -O - | /bin/sh
 echo
 opkg install --force-overwrite  https://drive.google.com/uc?id=1mlU3I5TE_Qg9a0JEEDbr_JH5howb6lok&export=download
 wait
+apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
+wait
+dpkg -i --force-overwrite /tmp/*.deb
+wait
 sleep 2;
 #########################################################
 #########################################################
