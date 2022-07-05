@@ -6,7 +6,7 @@ NitroAdvanceFHD/main/tarek1.sh -O - | /bin/sh
 ###########################################
 #!/bin/sh
 #
-wget -O /tmp/osdreambox_11.708-emu-r798_all.deb "https://github.com/tar1971/oscam-nacam/blob/main/enigma2-plugin-softcams-oscam-osdreambox_11.708-emu-r798_all.deb?raw=true"
+wget -O /tmp/osdreambox_11.708-emu-r798_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/enigma2-plugin-softcams-oscam_11.711-emu-r798_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
