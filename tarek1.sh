@@ -5,8 +5,8 @@ NitroAdvanceFHD/main/tarek1.sh -O - | /bin/sh
 ###########################################
 ###########################################
 #!/bin/sh
-echo
-opkg install --force-overwrite  https://drive.google.com/uc?id=1mlU3I5TE_Qg9a0JEEDbr_JH5howb6lok&export=download
+#
+wget -O /tmp/osdreambox_11.708-emu-r798_all.deb "https://github.com/tar1971/oscam-nacam/blob/main/enigma2-plugin-softcams-oscam-osdreambox_11.708-emu-r798_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
