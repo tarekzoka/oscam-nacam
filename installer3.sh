@@ -6,11 +6,11 @@ echo " download and install oscam emu "
 version=13.5
 OPKGINSTALL=opkg install --force-overwrite
 MY_URL="https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main"
-MY_IPK="enigma2-plugin-softcams-oscam_11718-emu-r798_all.ipk"
+MY_IPK="enigma2-plugin-softcams-ncam_13.5-r0_all.ipk"
 MY_DEB="enigma2-plugin-softcams-ncam_13.5-r0_all.deb"
 ##############################################################################
 # remove old emu #
-opkg remove enigma2-plugin-softcams-oscam-all-images
+opkg remove enigma2-plugin-softcams-ncam-all-images
 
 #################################################################################
 
