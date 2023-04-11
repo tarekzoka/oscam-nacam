@@ -2,7 +2,7 @@
 
 ##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer.sh -O - | /bin/sh
 #
-echo " download and install oscam emu "
+echo " download and install ncam emu "
 version=13.5
 OPKGINSTALL=opkg install --force-overwrite
 MY_URL="https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main"
