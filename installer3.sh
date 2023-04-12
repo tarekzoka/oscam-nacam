@@ -1,6 +1,6 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer3.sh -O - | /bin/sh
 #
 echo " download and install ncam emu "
 version=13.5
@@ -46,7 +46,7 @@ sleep 4;
 echo ". >>>>     PLEASE RESTARING     <<<<"
 echo "**********************************************************************************"
 wait
-exit 0  yyy
+exit 0  yyy y
 
 
 

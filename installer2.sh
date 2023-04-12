@@ -1,6 +1,6 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh
 #
 echo " download and install oscam emu "
 version=11.718
@@ -46,7 +46,7 @@ sleep 4;
 echo ". >>>>     PLEASE RESTARING     <<<<"
 echo "**********************************************************************************"
 wait
-exit 0   yyy
+exit 0   yyy y
 
 
 
