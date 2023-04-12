@@ -52,7 +52,7 @@ if [ -f $MY_TMP_FILE ]; then
         echo "#########################################################"
 wait
 sleep 2;
-exit 0
+exit 0 yyy
 
 
 
