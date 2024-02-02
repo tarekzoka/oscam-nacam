@@ -10,10 +10,6 @@
 ########################################################################################################################
 # Plugin	... Enter Manually
 ########################################################################################################################
-
-PACKAGE_DIR='oscam-nacam/main'
-
-MY_URL="https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main"
 MY_IPK="enigma2-softcams-oscam-all-images_11.731-emu-r799-arm%2Bmips_all.ipk"
 MY_DEB="enigma2-softcams-oscam-all-images_11.731-emu-r799-arm%2Bmips_all.deb"
 
