@@ -3,13 +3,16 @@
 # ==============================================
 # SCRIPT : DOWNLOAD AND INSTALL oscam-nacam #
 # =====================================================================================================================
-# Command:wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh
+# Command:wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installerEMU.sh -O - | /bin/sh
 #
 # =====================================================================================================================
 
 ########################################################################################################################
 # Plugin	... Enter Manually
 ########################################################################################################################
+
+PACKAGE_DIR='oscam-nacam/main'
+
 MY_IPK="enigma2-softcams-oscam-all-images_11.731-emu-r799-arm2Bmips_all.ipk"
 MY_DEB="enigma2-softcams-oscam-all-images_11.731-emu-r799-arm2Bmips_all.deb"
 
