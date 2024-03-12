@@ -13,7 +13,7 @@
 
 PACKAGE_DIR='oscam-nacam/main'
 
-MY_IPK="enigma2-plugin-softcams-ncam_V14.5-r0_all.ipk"
+MY_IPK="enigma2-plugin-softcams-ncam_V14.6-r0_all.ipk"
 MY_DEB="enigma2-plugin-softcams-ncam-osdreambox_V14.5-r0.deb"
 
 ########################################################################################################################
