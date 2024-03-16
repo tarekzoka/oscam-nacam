@@ -13,7 +13,7 @@
 
 PACKAGE_DIR='oscam-nacam/main'
 
-MY_IPK="enigma2-softcams-oscam-all-images_11747-emu-r799-arm+mips_all.ipk"
+MY_IPK="enigma2-softcams-oscam-all-images_11748-emu-r799-arm+mips_all.ipk"
 MY_DEB="enigma2-softcams-oscam-all-images_11747-emu-r799-arm+mips_all.deb"
 
 ########################################################################################################################
