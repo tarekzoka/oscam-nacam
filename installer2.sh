@@ -3,7 +3,7 @@
 # ==============================================
 # SCRIPT : DOWNLOAD AND INSTALL oscam-nacam #
 # =====================================================================================================================
-# Command:wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installerEMU.sh -O - | /bin/sh
+# Command:wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh
 #
 # =====================================================================================================================
 
