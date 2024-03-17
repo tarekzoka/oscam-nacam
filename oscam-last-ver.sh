@@ -7,7 +7,8 @@ wget -O /tmp/oscam-last-ver.tar.gz "https://raw.githubusercontent.com/tarekzoka/
 tar -xzf /tmp/*.tar.gz -C /
 
 rm -r /tmp/oscam-last-ver.tar.gz
-
+wait
+opkg update && opkg install --force-overwrite /tmp/*.ipk
 echo "         UPLOADED BY TARK_HANFY    "
 
 killall -9 enigma2
