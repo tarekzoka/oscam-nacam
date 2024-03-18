@@ -13,8 +13,8 @@
 
 PACKAGE_DIR='oscam-nacam/main'
 
-MY_IPK="enigma2-plugin-softcams-oscam_11748.emu.r800_all.ipk"
-MY_DEB="enigma2-plugin-softcams-oscam_11748.emu.r800_all.deb"
+MY_IPK="enigma2-plugin-softcams-oscam_11748-emu-r800_all.ipk"
+MY_DEB="enigma2-plugin-softcams-oscam_11748-emu-r800_all.deb"
 
 ########################################################################################################################
 # Auto ... Do not change
