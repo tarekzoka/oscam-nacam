@@ -5,7 +5,7 @@
 ###########################################
 #!/bin/sh
 #
-wget -O /tmp/softcams-oscam_11748-emu-r800_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/softcams-oscam_11748-emu-r800_all.deb?raw=true"
+wget -O /tmp/softcams-oscam_11749-emu-r800_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/softcams-oscam_11749-emu-r800_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
