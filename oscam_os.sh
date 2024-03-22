@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 
-wget -O /tmp/oscam_11749-emu-r800_all "https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam_11749-emu-r800_all"
+wget -O /tmp/oscam_11750-emu-r800_all "https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam_11750-emu-r800_all"
 
 dpkg -i --force-overwrite /tmp/*.deb
 
