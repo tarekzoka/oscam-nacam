@@ -5,7 +5,7 @@
 ###########################################
 #!/bin/sh
 #
-wget -O /tmp/oscam_11751-emu-r800_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/oscam_11751-emu-r800_all.deb?raw=true"
+wget -O /tmp/oscam_11752-emu-r800_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/oscam_11752-emu-r800_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
