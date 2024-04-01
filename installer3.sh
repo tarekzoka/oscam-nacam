@@ -6,8 +6,8 @@ echo " download and install ncam emu "
 version=14.7
 OPKGINSTALL=opkg install --force-overwrite
 MY_URL="https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main"
-MY_IPK="enigma2-plugin-softcams-ncam_14.7-r0_all.ipk"
-MY_DEB="enigma2-plugin-softcams-ncam_14.7-r0_all.deb"
+MY_IPK="enigma2-plugin-softcams-ncam_14.9-r0_all.ipk"
+MY_DEB="enigma2-plugin-softcams-ncam_14.9-r0_all.deb"
 ##############################################################################
 # remove old emu #
 opkg remove enigma2-plugin-softcams-ncam-all-images
