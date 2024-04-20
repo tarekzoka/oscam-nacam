@@ -3,14 +3,14 @@
 # ==============================================
 # SCRIPT : DOWNLOAD AND INSTALL OSCamicam_Kitte888 #
 # =====================================================================================================================
-# Command: wget https://raw.githubusercontent.com/biko-73/OSCamicam_Kitte888/main/installer.sh -O - | /bin/sh #
+# Command: wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/OSCamicam_Kitte888/installer.sh -O - | /bin/sh #
 # =====================================================================================================================
 
 ########################################################################################################################
 # Plugin	... Enter Manually
 ########################################################################################################################
 
-PACKAGE_DIR='OSCamicam_Kitte888/main'
+PACKAGE_DIR='oscam-nacam/main/OSCamicam_Kitte888'
 
 MY_IPK="enigma2-plugin-softcams-oscamicam_11758-ICAMEMU-Kitte888-V6Rev_all.ipk"
 MY_DEB="enigma2-plugin-softcams-oscamicam_11758-ICAMEMU-Kitte888-V6Rev_all.deb"
@@ -20,7 +20,7 @@ MY_DEB="enigma2-plugin-softcams-oscamicam_11758-ICAMEMU-Kitte888-V6Rev_all.deb"
 ########################################################################################################################
 
 # Decide : which package ?
-MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
+MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/"
 if which dpkg > /dev/null 2>&1; then
 	MY_FILE=$MY_DEB
 	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_DEB
