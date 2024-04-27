@@ -5,7 +5,7 @@ wget -O /tmp/oscam_11770-emu-r801_all.deb "https://raw.githubusercontent.com/tar
 
 dpkg -i --force-overwrite /tmp/*.deb
 
-rm -r /tmp/softcams-oscam_11766-emu-r801_all
+rm -r /tmp/softcams-oscam_11770-emu-r801_all
 
 wait
 
