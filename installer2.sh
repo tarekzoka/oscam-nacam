@@ -13,8 +13,8 @@
 
 PACKAGE_DIR='oscam-nacam/main'
 
-MY_IPK="oscam_11770-emu-r801_all.ipk"
-MY_DEB="oscam_11770-emu-r801_all.deb"
+MY_IPK="oscam_11774-emu-r801_all.ipk"
+MY_DEB="oscam_11774-emu-r801_all.deb"
 
 ########################################################################################################################
 # Auto ... Do not change
