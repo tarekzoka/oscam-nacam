@@ -5,7 +5,7 @@
 ###########################################
 #!/bin/sh
 #
-wget -O /tmp/enigma2-plugin-softcams-ncam_15.2-r0_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/enigma2-plugin-softcams-ncam_15.2r0_all.deb?raw=true"
+wget -O /tmp/enigma2-plugin-softcams-ncam_15.6-r0_all.deb "https://github.com/tarekzoka/oscam-nacam/blob/main/enigma2-plugin-softcams-ncam_15.2r0_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
@@ -53,6 +53,7 @@ if [ -f $MY_TMP_FILE ]; then
 wait
 sleep 2;
 exit 0
+
 
 
 
