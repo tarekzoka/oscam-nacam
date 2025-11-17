@@ -8,8 +8,3 @@ dpkg -i --force-overwrite /tmp/*.deb
 wait
 sleep 2;
 exit 0
-
-
-
-
-
