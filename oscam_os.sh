@@ -5,7 +5,7 @@ wget -O /tmp/oscam_11904-emu-r803_all.deb "https://raw.githubusercontent.com/tar
 
 dpkg -i --force-overwrite /tmp/*.deb
 
-rm -r /tmp/oscam_11869-emu-r802_all
+rm -r /tmp/oscam_11904-emu-r803_all.deb
 
 wait
 
